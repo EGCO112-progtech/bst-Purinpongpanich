@@ -115,7 +115,7 @@ void printTree( TreeNodePtr treePtr ,int count)
       for(int i = 0 ; i<count ; i++){
         printf("          ");  
       }
-      printf("%3d\n\n",treePtr->data) ;  //print the value 
+      printf("%3d\n",treePtr->data) ;  //print the value 
       printTree( treePtr->leftPtr, count + 1 ); //Recursion to the left
    } // end if                                    
 } // end 
